@@ -1,12 +1,28 @@
-# React + Vite
+# Mini Proyecto - Plantillas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación React creada con Vite para seleccionar y configurar plantillas de mensajes para distintos canales (SMS, Correo Electrónico, WhatsApp).
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/al-2100/reto_plantillas.git
+   cd reto_plantillas
+   ```
+2. Instala las dependencias:
+   ```
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+## Ejecución
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para iniciar la aplicación en modo de desarrollo:
+```
+npm run dev
+```
+La aplicación se abrirá en tu navegador en http://localhost:5173 o el puerto configurado.
+
+## Notas
+
+- Asegúrate de tener Node.js instalado.
+- La aplicación utiliza [Mantine](https://mantine.dev/) para la interfaz de usuario.
